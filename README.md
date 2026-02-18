@@ -79,6 +79,19 @@ A modern, full-stack attendance management system built with Next.js 14, TypeScr
 - **Icons**: Lucide React
 - **Date Handling**: date-fns
 
+## 💻 VS Code Setup
+
+For the best development experience with Visual Studio Code, see our comprehensive guide:
+
+**📘 [VS Code Setup Guide](./VSCODE_SETUP.md)**
+
+This guide includes:
+- Recommended VS Code extensions
+- Editor configuration
+- Debugging setup
+- Tasks for common operations
+- Keyboard shortcuts and tips
+
 ## 📦 Installation
 
 ### Prerequisites
