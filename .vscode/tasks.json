@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "detail": "Start Next.js development server"
+    },
+    {
+      "label": "build",
+      "type": "npm",
+      "script": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Build Next.js application for production"
+    },
+    {
+      "label": "lint",
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": ["$eslint-stylish"],
+      "detail": "Run ESLint on the project"
+    },
+    {
+      "label": "prisma:studio",
+      "type": "shell",
+      "command": "npx prisma studio",
+      "problemMatcher": [],
+      "detail": "Open Prisma Studio database GUI"
+    },
+    {
+      "label": "prisma:migrate",
+      "type": "shell",
+      "command": "npx prisma migrate dev",
+      "problemMatcher": [],
+      "detail": "Run Prisma migrations"
+    },
+    {
+      "label": "prisma:seed",
+      "type": "shell",
+      "command": "npx prisma db seed",
+      "problemMatcher": [],
+      "detail": "Seed the database with sample data"
+    }
+  ]
+}
